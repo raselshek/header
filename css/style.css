@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding:0 ;
+}
+.header{
+	background-color:#141927;
+}
+.wrapper{
+	width:80%;
+	
+	margin:0 auto;
+	overflow:hidden;
+}
+.logo{
+	width:20%;
+	float:left;
+}
+.menu{
+	width:60%;
+	
+	float:right;
+	margin-top:17px;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	list-style:none;
+	float:left;
+
+}
+.menu ul li a{
+	text-decoration:none;
+	color:white;
+	padding:0 25px;
+	text-transform:uppercase;
+	display: block;
+}
+.menu ul li:last-child a{
+	padding:0;
+}
